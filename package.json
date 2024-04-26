@@ -1,0 +1,27 @@
+{
+  "name": "@leonetti/binance-ticker",
+  "version": "0.0.1",
+  "description": "get price from Binance using TypeScript",
+  "repository": "alexandreleonetti/binance-ticker",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "type",
+    "types"
+  ],
+  "author": {
+    "name": "Alex Leonetti",
+    "url": "https://github.com/AlexandreLeonetti"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
