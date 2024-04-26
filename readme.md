@@ -1,12 +1,12 @@
-# get ticker price from Binance using TypeScript 
+# utils for Binance using TypeScript 
 
-> get ticker from binance using typescript 
+> utils for binance using typescript 
 
 ## Install
 
 ```sh
 
-npm install @leonetti/binance-ticker
+npm install @leonetti/binance-utils
 
 ```
 
@@ -14,9 +14,8 @@ npm install @leonetti/binance-ticker
 
 ```js
 
-import {getTickerPrice} from '@leonetti/binance-ticker';
+import {generateQueryString} from '@leonetti/binance-utils';
 
-getTickerPrice('BTCUSDT');    
-
+generateQueryString(params, secret);
 
 ```
